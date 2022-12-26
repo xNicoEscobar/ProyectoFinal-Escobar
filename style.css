@@ -230,7 +230,13 @@ ul li{
 .redes a:hover i{
     color: #c6ac8f;
 }
-
+.carousel-item{
+    max-height: calc(100vh - 20px);
+}
+.carousel-item img{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 @media (max-width: 768px){
@@ -263,6 +269,16 @@ ul li{
     .interiorismo p{
         display: flex;
         justify-content: center;
+        font-size: 22px;
+    }
+    footer{
+        width: 100%;
+        background-color: #463f3a;
+        height: 300px;
+        text-align: center;
+    }
+    .footer-content{
+        padding-top: 60px;
         font-size: 22px;
     }
 }
