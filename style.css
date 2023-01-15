@@ -19,21 +19,17 @@ header {
   display: flex;
   align-items: center;
 }
-
 .logo a:hover {
   color: white;
 }
-
-.logo-nombre {
+.logo .logo-nombre {
   font-size: 26px;
 }
-
 .logo .logo-nombre2 {
   display: flex;
   padding-left: 20px;
   font-size: 26px;
 }
-
 .logo img {
   height: 70px;
   padding-left: 10px;
@@ -51,7 +47,6 @@ nav {
   align-items: center;
   justify-content: center;
 }
-
 nav .links {
   font-size: 18px;
   word-spacing: 70px;
@@ -61,14 +56,12 @@ nav .links {
   align-items: center;
   justify-content: center;
 }
-
 nav .links li {
   text-align: center;
   justify-content: center;
   text-decoration: none;
   display: inline-block;
 }
-
 nav a:hover {
   color: #c6ac8f;
 }
@@ -111,7 +104,6 @@ body {
   padding-top: 30px;
   font-weight: 700;
 }
-
 .conteiner2 p {
   font-size: 30px;
   display: flex;
@@ -157,10 +149,6 @@ body {
   padding-bottom: 30px;
 }
 
-.interiorismo {
-  display: flex;
-}
-
 .nleft {
   width: 45%;
   background-image: url(./Multimedia/interiorismo-barcelona-molins-1000x667.jpg);
@@ -176,7 +164,6 @@ body {
   width: 50%;
   padding: 30px;
 }
-
 .nright p {
   font-size: 30px;
   padding-left: 40px;
@@ -193,8 +180,7 @@ footer {
   height: 200px;
   text-align: center;
 }
-
-footer .footer-content h3 {
+footer h3 {
   color: white;
   padding-top: 20px;
   padding-left: 10px;
@@ -202,8 +188,7 @@ footer .footer-content h3 {
   text-align: center;
   font-size: 24px;
 }
-
-footer .footer-content p {
+footer p {
   color: aliceblue;
   padding-top: 10px;
 }
@@ -226,7 +211,6 @@ ul li {
   text-decoration: none;
   color: white;
 }
-
 .redes a i {
   font-size: 1.5rem;
   transition: color 0.4s ease;
